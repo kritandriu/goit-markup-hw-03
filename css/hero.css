@@ -1,27 +1,46 @@
 .main {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .main-h1 {
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
 }
 
 .main-button {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    background-color: #4d5ae5;
-    cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .main-button:hover,
 .main-button:focus {
-    background-color: #404bbf;
+  background-color: #404bbf;
+}
+
+.main.section {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.main-h1 {
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+
+.main-button {
+  display: block;
+  min-width: 169px;
+  padding: 16px 32px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
 }
