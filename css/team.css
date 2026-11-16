@@ -13,6 +13,7 @@
 
 .our-team-list li {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 
 .our-team-subtitle {
@@ -46,7 +47,7 @@
 }
 
 .team-card-content {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .our-team-subtitle {
